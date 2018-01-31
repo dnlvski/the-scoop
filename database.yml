@@ -1,0 +1,46 @@
+users:
+  qwerty:
+    username: qwerty
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+      - 2
+      - 3
+articles:
+  '1':
+    id: 1
+    title: the sound of...
+    url: www.www.com
+    username: qwerty
+    commentIds:
+      - 1
+      - 2
+      - 3
+    upvotedBy: []
+    downvotedBy: []
+    comments: []
+nextArticleId: 2
+comments:
+  '1':
+    id: 1
+    body: qwerty
+    username: qwerty
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+  '2':
+    id: 2
+    body: qwert
+    username: qwerty
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+  '3':
+    id: 3
+    body: qwertyy
+    username: qwerty
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+nextCommentId: 4
